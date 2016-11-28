@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480356580 source:c:\users\alessio\desktop\trisseavanzato_infrigo\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

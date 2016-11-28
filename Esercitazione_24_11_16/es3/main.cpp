@@ -2,14 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
+#define SEED 50
 
 int matrix[10][10];
 void matrixStamp();
 
-///////esercizio senza SEED fisso
+///////esercizio con SEED fisso
 int main()
 {
-    srand(time(NULL));
+    srand(SEED);
     int victory=0;
     int quit=1;
     int shipi,shipj;

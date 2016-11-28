@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1480339374 source:c:\users\alessio\desktop\gamedev-1anno-2016-2017-master\esercitazione_24_11_16\es2\main.cpp
+	<iostream>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+
