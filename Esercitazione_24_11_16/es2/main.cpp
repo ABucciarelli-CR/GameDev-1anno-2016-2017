@@ -5,6 +5,7 @@
 
 int matrix[10][10];
 void matrixStamp();
+void near_fire(int, int, int, int);
 
 ///////esercizio senza SEED fisso
 int main()
@@ -30,7 +31,7 @@ int main()
 ///////posizionamento nave malvagia
         shipi=rand()%10;
         shipj=rand()%10;
-
+        std::cout << shipi << shipj << std::endl;
 //////////inizio gioco
         do
         {
@@ -71,6 +72,7 @@ int main()
             }
             else
             {
+                near_fire(i, j, shipi, shipj);
                 matrix[j][i]=2;
             }
             system("PAUSE");
@@ -100,4 +102,20 @@ void matrixStamp()
     }
     std::cout << "  | - - - - - - - - - -" << std::endl;
     std::cout << "  Y" << std::endl;
+}
+
+void near_fire(int x, int y, int shipx, int shipy)
+{
+    if(((shipx-x)<=1 && (shipx-x)>=-1) && ((shipy-y)<=1 && (shipy-y)>=-1))
+    {
+        std::cout << "Fuoco" << std::endl;
+    }
+    else if(((shipx-x)<=2 && (shipx-x)>=-2) && ((shipy-y)<=2 && (shipy-y)>=-2))
+    {
+        std::cout << "Fuochino" << std::endl;
+    }
+    else
+    {
+        std::cout << "Acqua" << std::endl;
+    }
 }
