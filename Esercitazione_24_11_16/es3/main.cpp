@@ -32,7 +32,6 @@ int main()
 ///////posizionamento nave malvagia
         shipi=rand()%10;
         shipj=rand()%10;
-        std::cout << shipi << shipj << std::endl;
 //////////inizio gioco
         do
         {
