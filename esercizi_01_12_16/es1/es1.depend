@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1480590773 source:c:\users\softdev1\desktop\esercizi_01_12_16\es1\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<time.h>
+
