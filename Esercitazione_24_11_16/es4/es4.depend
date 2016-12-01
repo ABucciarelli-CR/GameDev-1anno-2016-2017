@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1480343443 source:c:\users\alessio\desktop\es4\main.cpp
+	<iostream>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+

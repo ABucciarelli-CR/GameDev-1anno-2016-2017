@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1480356580 source:c:\users\alessio\desktop\trisseavanzato_infrigo\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1480356580 source:c:\users\alessio\desktop\gamedev-1anno-2016-2017-master\esercitazione_24_11_16\trisseavanzato_infrigo\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
