@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1482249890 source:c:\users\alessio\desktop\es2\main.cpp
+	<iostream>
+	<string.h>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+

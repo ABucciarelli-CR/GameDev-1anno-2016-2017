@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1481800576 source:c:\users\softdev1\desktop\es1\main.cpp
+	<iostream>
+	<string.h>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+
+1482177013 source:c:\users\alessio\desktop\es1\main.cpp
+	<iostream>
+	<string.h>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+
